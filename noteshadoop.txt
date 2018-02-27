@@ -10,6 +10,6 @@ data ware used for oltp where as datalake is used for olap
 writing dataframe into hive table
 df.coalesce.write.InsertIntoHivetable()
 
-in sql to eliminate null value we use coalesce
+in sql to eliminate null value we use coalesc
 mmendy@walmartlabs.com
 
