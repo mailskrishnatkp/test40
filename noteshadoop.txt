@@ -1,0 +1,15 @@
+after submitting the hive job the yarn cluster will initlise application master and resource manager .Application master speaks with resource manager for allocation of resources.After allocation it processes.If there is an defeciency of allocation of resources application master again contacts resource manager for more number of resources.
+impala uses c++ hive uses java memory management
+impala will have dedicated resources where hive doesnot dedicated resource.after submitting the job then only resource allocation will be done.
+impala uses inmemory.
+No failure recovery in impala
+
+datawarehouse is secured where as datalake is not secured
+data ware used for oltp where as datalake is used for olap
+
+writing dataframe into hive table
+df.coalesce.write.InsertIntoHivetable()
+
+in sql to eliminate null value we use coalesce
+mmendy@walmartlabs.com
+
